@@ -29,3 +29,8 @@ test:
 		--recursive \
 		-R spec \
 		test/
+
+.PHONY: report
+report:
+	# Launching Code Coverage Report in Browser
+	open ./coverage/lcov-report/index.html
